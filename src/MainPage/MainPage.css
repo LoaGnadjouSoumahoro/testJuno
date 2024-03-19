@@ -1,0 +1,41 @@
+.layoutHome {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 2fr 1fr 4fr 4fr;
+  grid-template-areas: "menu" "title" "homeDescription" "homeImage";
+}
+
+.menu {
+  grid-area: menu;
+  background-color: teal;
+}
+
+.title {
+  grid-area: title;
+  background-color: darkorange;
+}
+
+.homeDescription {
+  grid-area: homeDescription;
+  background-color: greenyellow;
+}
+
+.homeImage {
+  grid-area: homeImage;
+  background-color: crimson;
+}
+
+@media only screen and (min-width: 750px) {
+  .layoutHome {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 4fr 4fr;
+    grid-template-areas: "menu menu" "title title" "homeDescription homeImage" "homeDescription homeImage";
+  }
+}
