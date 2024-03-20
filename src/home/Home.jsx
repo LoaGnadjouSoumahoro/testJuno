@@ -4,6 +4,7 @@ import Menu from "../components/Menu/Menu";
 import Title from "../components/title/Title";
 import HomeDescription from "../components/homeDescription/HomeDescription";
 import HomeImage from "../components/homeImage/HomeImage";
+import HomeText from "../components/homeText/HomeText";
 import "./Home.css";
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
           <div className="menu">
             <Menu />
           </div>
-          <div className="title">
+          <div className="title centered">
             <Title />
           </div>
           <div className="homeDescription">
@@ -22,6 +23,9 @@ const Home = () => {
           </div>
           <div className="homeImage">
             <HomeImage />
+          </div>
+          <div className="homeText">
+            <HomeText />
           </div>
         </div>
       </section>

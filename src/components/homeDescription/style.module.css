@@ -1,2 +1,52 @@
 .box {
+  clear: none;
+  aspect-ratio: auto;
+  color: #3b9a9e;
+  -webkit-text-stroke-width: 0px;
+  text-indent: 0;
+  column-count: 0;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  object-fit: fill;
+  flex: 0 auto;
+  order: 0;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  position: static;
+}
+.buttonPrimary2 {
+  float: none;
+  clear: none;
+  aspect-ratio: auto;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  object-fit: fill;
+  object-position: 50% 50%;
+  background-color: #3b9a9e;
+  border-radius: 12px;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 25px;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all 0.2s;
+  display: inline;
+  position: relative;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: auto;
 }
