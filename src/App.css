@@ -1,29 +1,20 @@
-/* .layoutHome {
-  display: grid;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  grid-template-columns: 100%;
-  grid-template-rows: 2fr 2fr 1fr 4fr 4fr;
-  grid-template-areas: "menu" "header" "title" "homeDescription" "homeImage";
+:root {
+  --orange: #ff914d;
+  --yellow-white: #fcfef1;
+  --raspberry: #990147;
+  --cultured-white: whitesmoke;
+  --raisin-black: #1b1b1e;
+  --ffd914e: var(--silver-pink);
+  --silver-pink: #b19e96;
+  --light-grey: lightgrey;
+  --turquoise: #3b9a9e;
+  --blue: #005d9e;
 }
 
-.menu {
-  grid-area: menu;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-family: Lato, sans-serif;
 }
-
-.header {
-  grid-area: header;
-}
-
-.title {
-  grid-area: title;
-}
-
-.homeDescription {
-  grid-area: homeDescription;
-}
-
-.homeImage {
-  grid-area: homeImage;
-} */

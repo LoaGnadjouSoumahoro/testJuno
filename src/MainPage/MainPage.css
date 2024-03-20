@@ -4,8 +4,8 @@
   width: 100%;
   height: 100vh;
   grid-template-columns: 100%;
-  grid-template-rows: 2fr 1fr 4fr 4fr;
-  grid-template-areas: "menu" "title" "homeDescription" "homeImage";
+  grid-template-rows: 2fr 1fr 4fr 4fr 2fr;
+  grid-template-areas: "menu" "title" "homeDescription" "homeImage" "heometext";
 }
 
 .menu {
@@ -15,27 +15,47 @@
 
 .title {
   grid-area: title;
-  background-color: darkorange;
 }
 
 .homeDescription {
   grid-area: homeDescription;
-  background-color: greenyellow;
+  
 }
 
 .homeImage {
   grid-area: homeImage;
-  background-color: crimson;
+  
+}
+.homeText {
+  grid-area: homeText;
 }
 
-@media only screen and (min-width: 750px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
   .layoutHome {
     display: grid;
     text-align: center;
     width: 100%;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr 4fr 4fr;
-    grid-template-areas: "menu menu" "title title" "homeDescription homeImage" "homeDescription homeImage";
+    grid-template-rows: 2fr 1fr 4fr 4fr 2fr;
+    grid-template-areas: "menu menu" "title title" "homeDescription homeImage" "homeDescription homeImage" "homeText homeText";
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    1.5em
   }
 }
